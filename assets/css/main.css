@@ -316,6 +316,7 @@
 
 	.switch {
 		position: relative;
+		margin-top: 40px;
 		display: inline-block;
 		width: 60px;
 		height: 34px;
@@ -373,7 +374,7 @@
 	  .slider.round:before {
 		border-radius: 50%;
 	  }
-	  
+
 	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
