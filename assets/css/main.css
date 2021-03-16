@@ -10,7 +10,7 @@
 		vertical-align: baseline;
 	}
 
-	:root.light{
+	:root{
 		--body-bg: #fff;
 		--body-bg-color: #fff;
 		--h2-h3-color: rgba(15, 80, 124, 0.979);
@@ -46,7 +46,7 @@
 		--linkedin-bg: rgba(49, 138, 197, 0.979);
 	}
 
-	:root.dark{
+	[data-theme="dark"]{
 		--body-bg: rgb(14, 14, 36);
 		--body-bg-color: rgb(9, 9, 29);
 		--h2-h3-color: #648dae;
@@ -321,7 +321,7 @@
 		height: 34px;
 		cursor: default;
 		left: 30px;
-		margin-top: 30px;
+		margin-top: 26px;
 		line-height: 5em;
 		text-align: right;
 		top: 0;
