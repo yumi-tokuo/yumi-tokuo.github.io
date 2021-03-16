@@ -110,16 +110,16 @@
 			</nav>
 			</footer>
 			<script src="assets/js/main.js"></script>
+			<script>
+				$(document).ready(function() {
+					$("#turnlight").click(function(){
+						$("html lang").removeClass("dark");
+					})
+		
+					$("#dark").click(function(){
+						$("html lang").addClass("dark");
+					})
+				})
+			</script>
     </body>
-	<script>
-		$(document).ready(function() {
-			$("#turnlight").click(function(){
-				$("html lang").removeClass("dark");
-			})
-
-			$("#dark").click(function(){
-				$("html lang").addClass("dark");
-			})
-		})
-	</script>
 </html>
