@@ -315,15 +315,15 @@
 	}
 
 	.switch {
+		position: fixed;
 		display: inline-block;
+		width: 60px;
+		height: 34px;
 		cursor: default;
-		height: 5em;
 		left: 0;
 		line-height: 5em;
-		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 100%;
 		z-index: 10001;
 	  }
 	  
