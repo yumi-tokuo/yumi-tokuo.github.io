@@ -19,8 +19,8 @@
 		color: rgba(15, 80, 124, 0.979);
 	}
 	.light-.button{
-		background-color: #fff;
-		color: #ffffff !important;
+		background-color: #f3f3f3;
+		color: #272727 !important;
 	}
 	.light-.button.alt{
 		background-color: transparent;
