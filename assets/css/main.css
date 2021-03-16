@@ -46,7 +46,7 @@
 		--linkedin-bg: rgba(49, 138, 197, 0.979);
 	}
 
-	:root.dark-mode{
+	:root.dark{
 		--body-bg: rgb(14, 14, 36);
 		--body-bg-color: rgb(9, 9, 29);
 		--h2-h3-color: #648dae;
@@ -446,6 +446,48 @@
 		padding-top: 5em;
 	}
 
+	.toggle-switch {
+		display: block;
+	}
+	
+	#toggle-input {
+		display: none;
+	}
+	
+	.toggle-switch__control {
+		width: 40px;
+		height: 14px;
+		border-radius: 7px;
+		position: relative;
+	
+		background: #999;
+	
+		cursor: pointer;
+	
+		margin: 50px auto;
+	}
+	
+	.toggle-switch__control::after {
+		content: '';
+		display: block;
+	
+		width: 20px;
+		height: 20px;
+		border-radius: 10px;
+	
+		position: absolute;
+		left: -1px;
+		top: -3px;
+	
+		background: var(--background-color);
+	
+		transition: left 0.25s;
+	}
+	
+	#toggle-input:checked + .toggle-switch__control::after {
+		left: 21px;
+	}
+	
 	#header {
 		background: var(--header-bg);
 		cursor: default;
