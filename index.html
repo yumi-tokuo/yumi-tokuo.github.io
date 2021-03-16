@@ -1,5 +1,5 @@
 <!DOCTYPE HTML>
-<html lang class="dark">
+<html lang class="dark-mode">
 	<head>
 		<title>Projeto Pessoal - Yumi Scheiblich</title>
 		<meta charset="utf-8" />
@@ -21,19 +21,7 @@
 				</nav>
 			</div>
 		</header>
-			
-	    <script>
-			$(document).ready(function() {
-				$("#turnlight").click(function(){
-					$("html lang").removeClass("dark");
-				})
-	
-				$("#dark").click(function(){
-					$("html lang").addClass("dark");
-				})
-			})
-		</script>
-		
+
 		<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 
 		<section id="banner" class="inner">
@@ -123,4 +111,11 @@
 			</footer>
 			<script src="assets/js/main.js"></script>
     </body>
+	<script>
+		<input id="dark-mode" type="checkbox" aria-label="dark-mode" />
+		const nightMode = document.querySelector('#night-mode')
+		darkMode.addEventListener('click', () => {
+		document.documentElement.classList.toggle('dark-mode')
+})
+	</script>
 </html>
