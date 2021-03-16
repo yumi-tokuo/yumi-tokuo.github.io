@@ -14,10 +14,7 @@
 					<a class="page-scroll" href="#sobremim">Sobre</a>
 					<a class="page-scroll" href="#projetos">Projetos</a>
 					<a class="page-scroll" href="#container">Contato</a>
-					<section class="controles">
-						<button>Light Mode</button>
-						<button id="dark">Dark Mode</button>
-					</section>
+					<button onclick="myFunction()">Mudar</button>
 				</nav>
 			</div>
 		</header>
@@ -112,10 +109,9 @@
 			<script src="assets/js/main.js"></script>
     </body>
 	<script>
-		<input id="dark-mode" type="checkbox" aria-label="dark-mode" />
-		const nightMode = document.querySelector('#night-mode')
-		darkMode.addEventListener('click', () => {
-		document.documentElement.classList.toggle('dark-mode')
-})
+	function myFunction() {
+    var element = document.html;
+    element.classList.toggle("dark-mode");
+    }
 	</script>
 </html>
