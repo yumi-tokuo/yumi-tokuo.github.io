@@ -366,7 +366,7 @@
 	}
 
 	h2, h3{
-		color: var(--h2-h3-color);
+		color: rgba(15, 80, 124, 0.979);
 	}
 
 	input[type="submit"],
@@ -402,8 +402,8 @@
 	input[type="button"],
 	button,
 	.button {
-		background-color: var(--button-bg-color);
-		color: var(--button-color);
+		background-color: #f3f3f3;
+		color:#272727 !important;
 	}
 
 		input[type="submit"].alt,
@@ -412,8 +412,8 @@
 		button.alt,
 		.button.alt {
 			background-color: transparent;
-			box-shadow: var(--box-shadow);
-			color: var(--box-shadow-color);
+			box-shadow:  inset 0 0 0 2px #222222;
+			color: #222222 !important;
 		}
 
 	.icon {
@@ -502,7 +502,7 @@
 	}
 
 	#header {
-		background: var(--header-bg);
+		background: #f3f3f3;
 		cursor: default;
 		height: 5em;
 		left: 0;
@@ -528,7 +528,7 @@
 			transition: color 0.2s ease-in-out;
 			display: inline-block;
 			padding: 0 2em;
-			color: var(--header-a) ;
+			color: #202020;
 			text-decoration: none;
 			text-transform: uppercase;
 			font-weight: 700;
@@ -624,11 +624,11 @@
 
 	#sobremim {
 		padding: 6em 0 4em 0;
-		background: var(--sobremim-bg-color);
-		background: var(--sobremim-bg);
-		background: var(--sobremim-bg);
-		background: var(--sobremim-bg);
-		filter: var(--sobremim-filter);
+		background: #f3f3f3;
+		background: -moz-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f3f3f3 0%, #f3f3f3 100%);
+		background: -webkit-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f3f3f3 0%, #f3f3f3 100%);
+		background: linear-gradient(to right, #f3f3f3 0%, #f3f3f3 50%, #f3f3f3 0%, #f3f3f3 100%);
+		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#f3f3f3',GradientType=1 );
 	}
 
 		#sobremim .inner {
@@ -807,17 +807,17 @@
 }
 .social-icons a.facebook:hover
 {
-  background-color: var(--facebook-bg)
+  background-color: rgb(42, 124, 218);
 }
 .social-icons a.twitter:hover
 {
-  background-color: var(--twitter-bg)
+  background-color: rgb(42, 124, 218);
 }
 .social-icons a.instagram:hover
 {
-  background-color: var(--instagram-bg)
+  background-color: rgb(42, 124, 218);
 }
 .social-icons a.linkedin:hover
 {
-  background-color: var(--linkedin-bg)
+  background-color: rgb(42, 124, 218);
 }
