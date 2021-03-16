@@ -10,132 +10,77 @@
 		vertical-align: baseline;
 	}
 
-	.light{
-		background: #fff;
-		background-color: #fff;
-		color: #111111;
-	}
-	.light-h2,.light-h3{
-		color: rgba(15, 80, 124, 0.979);
-	}
-	.light-.button{
-		background-color: #f3f3f3;
-		color: #272727 !important;
-	}
-	.light-.button.alt{
-		background-color: transparent;
-		box-shadow: inset 0 0 0 2px #222222;
-		color: #222222 !important;
-	}
-	.light-#header{
-		background: #f3f3f3;
-	}
-	.light-#header a{
-		color:#202020;
-	}
-	.light-#sobremim{
-		background: #f3f3f3;
-		background: -moz-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f3f3f3 0%, #f3f3f3 100%);
-		background: -webkit-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f3f3f3 0%, #f3f3f3 100%);
-		background: linear-gradient(to right, #f3f3f3 0%, #f3f3f3 50%, #f3f3f3 0%, #f3f3f3 100%);
-		filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#f3f3f3',GradientType=1 );
-	}
-	.light-#sobremim p{
-		color: #202020;
-	}
-	.light-#projetos .inner article p{
-		color: #474747;
-	}
-	.light-#projetos .inner article .icon{
-		color: #b3b3b3;
-	}
-	.light-.site-footer{
-		background-color:#e0e0e0;
-		color:#585858;	  
-	}
-	.light-.site-footer h6{
-		color:rgba(36, 124, 184, 0.979);
-	}
-	.light-.site-footer a{
-		color:#737373;
-	}
-	.light-.footer-links a{
-		color:#363636;
-	}
-	.light-.footer-links a:hover{
-		color:rgba(36, 124, 184, 0.979);
-	}
-	.light-.site-footer .social-icons a{
-		background-color:#e0e0e0;
-	}
-	.light-.social-icons a{
-		background-color: #e0e0e0;
-		color: #535353;	  
+	:root{
+		--body-bg: #fff;
+		--body-bg-color: #fff;
+		--h2-h3-color: rgba(15, 80, 124, 0.979);
+		--button-bg-color: #fff;
+		--button-color: #252525 !important;
+		--box-shadow: inset 0 0 0 2px #222222;
+		--box-shadow-color: #222222 !important;
+		--header-bg: #f3f3f3;
+		--header-a: #202020;
+		--navPanel-bg: #1c1c1c;
+		--navPanel-bg-color: #fff;
+		--banner-bg-color: #0c0c0c;
+		--sobremim-bg-color: #f3f3f3;
+		--sobremim-bg:-moz-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f3f3f3 0%, #f3f3f3 100%);
+		--sobremim-bg:-webkit-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f3f3f3 0%, #f3f3f3 100%);
+		--sobremim-bg:linear-gradient(to right, #f3f3f3 0%, #f3f3f3 50%, #f3f3f3 0%, #f3f3f3 100%);
+		--sobremim-filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#f3f3f3',GradientType=1 );
+		--sobremim-p: #202020;
+		--projetos-article-p: #474747;
+		--projetos-article-icon: #b3b3b3;
+		--footer-bg-color: #e0e0e0;
+		--footer-color:#585858;
+		--footer-h6: rgba(36, 124, 184, 0.979);
+		--footer-a:#737373;
+		--footer-a-link: #363636;
+		--footer-ahover-link: rgba(36, 124, 184, 0.979);
+		--footer-bg-icon: #e0e0e0;
+		--icon-a-bg-color: #e0e0e0;
+		--icon-a-color: #535353;
+		--facebook-bg: rgba(49, 138, 197, 0.979);
+		--twitter-bg: rgba(49, 138, 197, 0.979);
+		--instagram-bg: rgba(49, 138, 197, 0.979);
+		--linkedin-bg: rgba(49, 138, 197, 0.979);
 	}
 
-	.dark{
-		background:  rgb(14, 14, 36);
-		background-color: rgb(9, 9, 29);
-		color: #111111;
+	.dark:root{
+		--body-bg: rgb(14, 14, 36);
+		--body-bg-color: rgb(9, 9, 29);
+		--h2-h3-color: #648dae;
+		--button-bg-color: rgb(14, 14, 36);
+		--button-color: #ffffff !important;
+		--box-shadow: inset 0 0 0 2px #e0e0e0;
+		--box-shadow-color: #e0e0e0 !important;
+		--header-bg: #11101f;
+		--header-a: #f3f3f3;
+		--navPanel-bg: #1c1c1c;
+		--navPanel-bg-color: #fff;
+		--banner-bg-color: #0c0c0c;
+		--sobremim-bg-color: rgb(9, 9, 29);
+		--sobremim-bg:-moz-linear-gradient(left, rgb(9, 9, 29) 0%, rgb(9, 9, 29) 50%, rgb(9, 9, 29) 0%, rgb(9, 9, 29) 100%);
+		--sobremim-bg:-webkit-linear-gradient(left, rgb(9, 9, 29) 0%, rgb(9, 9, 29) 50%, rgb(9, 9, 29) 0%, rgb(9, 9, 29) 100%);
+		--sobremim-bg:linear-gradient(to right, rgb(9, 9, 29) 0%, rgb(9, 9, 29) 50%, rgb(9, 9, 29) 0%, rgb(9, 9, 29) 100%);
+		--sobremim-filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(9, 9, 29)', endColorstr='rgb(9, 9, 29)',GradientType=1 );
+		--sobremim-p: #f0f0f0;
+		--projetos-article-p: #f0f0f0;
+		--projetos-article-icon: #f0f0f0;
+		--footer-bg-color: #02001a;
+		--footer-color:#bebebe;
+		--footer-h6: #648dae;
+		--footer-a:#f0f0f0;
+		--footer-a-link: #f0f0f0;
+		--footer-ahover-link: rgba(36, 124, 184, 0.979);
+		--footer-bg-icon: #02001a;
+		--icon-a-bg-color: #02001a;
+		--icon-a-color: #e6e6e6;
+		--facebook-bg: rgba(49, 138, 197, 0.979);
+		--twitter-bg: rgba(49, 138, 197, 0.979);
+		--instagram-bg: rgba(49, 138, 197, 0.979);
+		--linkedin-bg: rgba(49, 138, 197, 0.979);	
 	}
-	.dark-h2,.dark-h3{
-		color: #648dae;
-	}
-	.dark-.button{
-		background-color: rgb(14, 14, 36);;
-		color: #ffffff !important;
-	}
-	.dark-.button.alt{
-		background-color: transparent;
-		box-shadow: inset 0 0 0 2px #e0e0e0;
-		color:#e0e0e0 !important;
-	}
-	.dark-#header{
-		background:#11101f;
-	}
-	.dark-#header a{
-		color:#f3f3f3;
-	}
-	.dark-#sobremim{
-		background: rgb(9, 9, 29);
-		background: -moz-linear-gradient(left, rgb(9, 9, 29) 0%, rgb(9, 9, 29) 50%, rgb(9, 9, 29) 0%, rgb(9, 9, 29) 100%);
-		background: -webkit-linear-gradient(left, rgb(9, 9, 29) 0%, rgb(9, 9, 29) 50%, rgb(9, 9, 29) 0%, rgb(9, 9, 29) 100%);
-		background: linear-gradient(to right, rgb(9, 9, 29) 0%, rgb(9, 9, 29) 50%, rgb(9, 9, 29) 0%, rgb(9, 9, 29) 100%);
-		filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='rgb(9, 9, 29)', endColorstr='rgb(9, 9, 29)',GradientType=1 );
-	}
-	.dark-#sobremim p{
-		color: #f0f0f0;
-	}
-	.dark-#projetos .inner article p{
-		color: #f0f0f0;
-	}
-	.dark-#projetos .inner article .icon{
-		color: #f0f0f0;
-	}
-	.dark-.site-footer{
-		background-color:#02001a;
-		color:#bebebe;	  
-	}
-	.dark-.site-footer h6{
-		color:#648dae;
-	}
-	.dark-.site-footer a{
-		color:#f0f0f0;
-	}
-	.dark-.footer-links a{
-		color:#f0f0f0;
-	}
-	.dark-.footer-links a:hover{
-		color:#02001a;
-	}
-	.dark-.site-footer .social-icons a{
-		background-color:#e0e0e0;
-	}
-	.dark-.social-icons a{
-		background-color: #02001a;
-		color: #e6e6e6;	  
-	}
-
 
 	body {
 		line-height: 1;
@@ -284,11 +229,11 @@
 	}
 
 	body {
-		background: #fff;
+		background: var(--body-bg);
 	}
 
 	body {
-		background-color: #fff;
+		background-color: var(--body-bg-color);
 		color: #111111;
 	}
 
@@ -366,7 +311,7 @@
 	}
 
 	h2, h3{
-		color: rgba(15, 80, 124, 0.979);
+		color: var(--h2-h3-color);
 	}
 
 	input[type="submit"],
@@ -402,8 +347,8 @@
 	input[type="button"],
 	button,
 	.button {
-		background-color: #f3f3f3;
-		color:#272727 !important;
+		background-color: var(--button-bg-color);
+		color: var(--button-color);
 	}
 
 		input[type="submit"].alt,
@@ -412,8 +357,8 @@
 		button.alt,
 		.button.alt {
 			background-color: transparent;
-			box-shadow:  inset 0 0 0 2px #222222;
-			color: #222222 !important;
+			box-shadow: var(--box-shadow);
+			color: var(--box-shadow-color);
 		}
 
 	.icon {
@@ -502,7 +447,7 @@
 	}
 
 	#header {
-		background: #f3f3f3;
+		background: var(--header-bg);
 		cursor: default;
 		height: 5em;
 		left: 0;
@@ -528,7 +473,7 @@
 			transition: color 0.2s ease-in-out;
 			display: inline-block;
 			padding: 0 2em;
-			color: #202020;
+			color: var(--header-a) ;
 			text-decoration: none;
 			text-transform: uppercase;
 			font-weight: 700;
@@ -624,11 +569,11 @@
 
 	#sobremim {
 		padding: 6em 0 4em 0;
-		background: #f3f3f3;
-		background: -moz-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f3f3f3 0%, #f3f3f3 100%);
-		background: -webkit-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f3f3f3 0%, #f3f3f3 100%);
-		background: linear-gradient(to right, #f3f3f3 0%, #f3f3f3 50%, #f3f3f3 0%, #f3f3f3 100%);
-		filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#f3f3f3',GradientType=1 );
+		background: var(--sobremim-bg-color);
+		background: var(--sobremim-bg);
+		background: var(--sobremim-bg);
+		background: var(--sobremim-bg);
+		filter: var(--sobremim-filter);
 	}
 
 		#sobremim .inner {
@@ -807,17 +752,17 @@
 }
 .social-icons a.facebook:hover
 {
-  background-color: rgb(42, 124, 218);
+  background-color: var(--facebook-bg)
 }
 .social-icons a.twitter:hover
 {
-  background-color: rgb(42, 124, 218);
+  background-color: var(--twitter-bg)
 }
 .social-icons a.instagram:hover
 {
-  background-color: rgb(42, 124, 218);
+  background-color: var(--instagram-bg)
 }
 .social-icons a.linkedin:hover
 {
-  background-color: rgb(42, 124, 218);
+  background-color: var(--linkedin-bg)
 }
