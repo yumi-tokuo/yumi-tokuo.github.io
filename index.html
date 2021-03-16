@@ -15,7 +15,7 @@
 					<a class="page-scroll" href="#projetos">Projetos</a>
 					<a class="page-scroll" href="#site-footer">Contato</a>
 					<section class="controles">
-						<button id="turnlight">Light Mode</button>
+						<button id=":root">Light Mode</button>
 						<button id="dark">Dark Mode</button>
 					</section>
 				</nav>
@@ -114,13 +114,11 @@
 	<script>
 		$(document).ready(function() {
 			$("#turnlight").click(function(){
-				$("body").removeClass("light");
-				$("body").addClass("dark");
+				$("html lang").removeClass("dark");
 			})
 
 			$("#dark").click(function(){
-				$("body").addClass("light");
-				$("body").removeClass("dark");
+				$("html lang").addClass("dark");
 			})
 		})
 	</script>
