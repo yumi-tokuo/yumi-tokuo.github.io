@@ -13,7 +13,7 @@
 					<a class="page-scroll" href="index.html">Início</a>
 					<a class="page-scroll" href="#sobremim">Sobre</a>
 					<a class="page-scroll" href="#projetos">Projetos</a>
-					<a class="page-scroll" href="#site-footer">Contato</a>
+					<a class="page-scroll" href="#container">Contato</a>
 					<section class="controles">
 						<button>Light Mode</button>
 						<button id="dark">Dark Mode</button>
@@ -22,6 +22,18 @@
 			</div>
 		</header>
 			
+	    <script>
+			$(document).ready(function() {
+				$("#turnlight").click(function(){
+					$("html lang").removeClass("dark");
+				})
+	
+				$("#dark").click(function(){
+					$("html lang").addClass("dark");
+				})
+			})
+		</script>
+		
 		<a href="#menu" class="navPanelToggle"><span class="fa fa-bars"></span></a>
 
 		<section id="banner" class="inner">
@@ -110,16 +122,5 @@
 			</nav>
 			</footer>
 			<script src="assets/js/main.js"></script>
-			<script>
-				$(document).ready(function() {
-					$("#turnlight").click(function(){
-						$("html lang").removeClass("dark");
-					})
-		
-					$("#dark").click(function(){
-						$("html lang").addClass("dark");
-					})
-				})
-			</script>
     </body>
 </html>
