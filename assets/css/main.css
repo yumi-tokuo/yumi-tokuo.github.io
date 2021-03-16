@@ -10,40 +10,86 @@
 		vertical-align: baseline;
 	}
 
-	:root{
-		--body-bg: #fff;
-		--body-bg-color: #fff;
-		--h2-h3-color: rgba(15, 80, 124, 0.979);
-		--button-bg-color: #fff;
-		--button-color: #252525 !important;
-		--box-shadow: inset 0 0 0 2px #222222;
-		--box-shadow-color: #222222 !important;
-		--header-bg: #f3f3f3;
-		--header-a: #202020;
-		--navPanel-bg: #1c1c1c;
-		--navPanel-bg-color: #fff;
-		--banner-bg-color: #0c0c0c;
-		--sobremim-bg-color: #f3f3f3;
-		--sobremim-bg:-moz-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f3f3f3 0%, #f3f3f3 100%);
-		--sobremim-bg:-webkit-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f3f3f3 0%, #f3f3f3 100%);
-		--sobremim-bg:linear-gradient(to right, #f3f3f3 0%, #f3f3f3 50%, #f3f3f3 0%, #f3f3f3 100%);
-		--sobremim-filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#f3f3f3',GradientType=1 );
-		--sobremim-p: #202020;
-		--projetos-article-p: #474747;
-		--projetos-article-icon: #b3b3b3;
-		--footer-bg-color: #e0e0e0;
-		--footer-color:#585858;
-		--footer-h6: rgba(36, 124, 184, 0.979);
-		--footer-a:#737373;
-		--footer-a-link: #363636;
-		--footer-ahover-link: rgba(36, 124, 184, 0.979);
-		--footer-bg-icon: #e0e0e0;
-		--icon-a-bg-color: #e0e0e0;
-		--icon-a-color: #535353;
-		--facebook-bg: rgba(49, 138, 197, 0.979);
-		--twitter-bg: rgba(49, 138, 197, 0.979);
-		--instagram-bg: rgba(49, 138, 197, 0.979);
-		--linkedin-bg: rgba(49, 138, 197, 0.979);
+	.light{
+		background: #fff;
+		background-color: #fff;
+		color: #111111;
+	}
+	.light-h2,.light-h3{
+		color: rgba(15, 80, 124, 0.979);
+	}
+	.light-.button{
+		background-color: #fff;
+		color: #ffffff !important;
+	}
+	.light-.button.alt{
+		background-color: transparent;
+		box-shadow: inset 0 0 0 2px #222222;
+		color: #222222 !important;
+	}
+	.light-#header{
+		background: #f3f3f3;
+	}
+	.light-#header a{
+		color:#202020;
+	}
+	.light-#navPanel{
+		background: #1c1c1c;
+		color: #fff;
+	}
+	.light-#banner{
+		background-color: #0c0c0c;
+	}
+	.light-#sobremim{
+		background: #f3f3f3;
+		background: -moz-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f3f3f3 0%, #f3f3f3 100%);
+		background: -webkit-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f3f3f3 0%, #f3f3f3 100%);
+		background: linear-gradient(to right, #f3f3f3 0%, #f3f3f3 50%, #f3f3f3 0%, #f3f3f3 100%);
+		filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#f3f3f3',GradientType=1 );
+	}
+	.light-#sobremim p{
+		color: #202020;
+	}
+	.light-#projetos .inner article p{
+		color: #474747;
+	}
+	.light-#projetos .inner article .icon{
+		color: #b3b3b3;
+	}
+	.light-.site-footer{
+		background-color:#e0e0e0;
+		color:#585858;	  
+	}
+	.light-.site-footer h6{
+		color:rgba(36, 124, 184, 0.979);
+	}
+	.light-.site-footer a{
+		color:#737373;
+	}
+	.light-.footer-links a{
+		color:#363636;
+	}
+	.light-.footer-links a:hover{
+		color:rgba(36, 124, 184, 0.979);
+	}
+	.light-.site-footer .social-icons a{
+		background-color:#e0e0e0;
+	}
+	.light-.social-icons a{
+		background-color: #e0e0e0;
+		color: #535353;	  
+	}
+	.light-.social-icons a.facebook:hover{
+		background-color: rgba(49, 138, 197, 0.979);
+	}
+	.light-.social-icons a.twitter:hover{
+		background-color: rgba(49, 138, 197, 0.979);
+	}
+	.light-.social-icons a.instagram:hover{
+		background-color: rgba(49, 138, 197, 0.979);
+	}
+	.light-.social-icons a.linkedin:hover{
+		background-color: rgba(49, 138, 197, 0.979);
 	}
 
 	.dark:root{
@@ -72,7 +118,6 @@
 		--footer-h6: #648dae;
 		--footer-a:#f0f0f0;
 		--footer-a-link: #f0f0f0;
-		--footer-ahover-link: rgba(36, 124, 184, 0.979);
 		--footer-bg-icon: #02001a;
 		--icon-a-bg-color: #02001a;
 		--icon-a-color: #e6e6e6;
@@ -229,11 +274,11 @@
 	}
 
 	body {
-		background: var(--body-bg);
+		background: #fff;
 	}
 
 	body {
-		background-color: var(--body-bg-color);
+		background-color: #fff;
 		color: #111111;
 	}
 
@@ -311,7 +356,7 @@
 	}
 
 	h2, h3{
-		color: var(--h2-h3-color);
+		color: rgba(15, 80, 124, 0.979);
 	}
 
 	input[type="submit"],
@@ -347,8 +392,8 @@
 	input[type="button"],
 	button,
 	.button {
-		background-color: var(--button-bg-color);
-		color: var(--button-color);
+		background-color: #fff;
+		color: #ffffff !important;
 	}
 
 		input[type="submit"].alt,
@@ -357,8 +402,8 @@
 		button.alt,
 		.button.alt {
 			background-color: transparent;
-			box-shadow: var(--box-shadow);
-			color: var(--box-shadow-color);
+			box-shadow: inset 0 0 0 2px #222222;
+			color: #222222 !important;
 		}
 
 	.icon {
@@ -447,7 +492,7 @@
 	}
 
 	#header {
-		background: var(--header-bg);
+		background: #f3f3f3;
 		cursor: default;
 		height: 5em;
 		left: 0;
@@ -473,7 +518,7 @@
 			transition: color 0.2s ease-in-out;
 			display: inline-block;
 			padding: 0 2em;
-			color: var(--header-a) ;
+			color:#202020;
 			text-decoration: none;
 			text-transform: uppercase;
 			font-weight: 700;
@@ -514,8 +559,8 @@
 		position: fixed;
 		right: 0;
 		top: 0;
-		background: var(--navPanel-bg);
-		color: var(--navPanel-bg-color);
+		background: #1c1c1c;
+		color: #fff;
 		height: 100%;
 		max-width: 80%;
 		width: 20em;
@@ -527,7 +572,7 @@
 
 	#banner {
 		background-image: url("../../images/banner.png");
-		background-color: var(--banner-bg-color);
+		background-color: #0c0c0c;
 		background-size: cover;
 		background-repeat: no-repeat;
 		text-align: left;
@@ -569,11 +614,11 @@
 
 	#sobremim {
 		padding: 6em 0 4em 0;
-		background: var(--sobremim-bg-color);
-		background: var(--sobremim-bg);
-		background: var(--sobremim-bg);
-		background: var(--sobremim-bg);
-		filter: var(--sobremim-filter);
+		background: #f3f3f3;
+		background: -moz-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f3f3f3 0%, #f3f3f3 100%);
+		background: -webkit-linear-gradient(left, #f3f3f3 0%, #f3f3f3 50%, #f3f3f3 0%, #f3f3f3 100%);
+		background: linear-gradient(to right, #f3f3f3 0%, #f3f3f3 50%, #f3f3f3 0%, #f3f3f3 100%);
+		filter:progid:DXImageTransform.Microsoft.gradient( startColorstr='#f3f3f3', endColorstr='#f3f3f3',GradientType=1 );
 	}
 
 		#sobremim .inner {
@@ -617,7 +662,7 @@
 
 					#sobremim p{
 						margin-left: 60px;
-						color: var(--sobremim-p);
+						color: #202020;
 					}
 
 						#sobremim .inner article:first-child {
@@ -657,21 +702,21 @@
 			}
 
 				#projetos .inner article p {
-					color: var(--projetos-article-p);
+					color: #474747;
 				}
 
 				#projetos .inner article .icon {
-					color: var(--projetos-article-icon);
+					color: #b3b3b3;
 					font-size: 3em;
 				}
 
 .site-footer
 {
-  background-color:var(--footer-bg-color);
+  background-color:#e0e0e0;
   padding:45px 0 20px;
   font-size:15px;
   line-height:24px;
-  color:var(--footer-color);
+  color:#585858;
 }
 .site-footer hr.small
 {
@@ -679,7 +724,7 @@
 }
 .site-footer h6
 {
-  color:var(--footer-h6);
+  color:rgba(36, 124, 184, 0.979);
   font-size:16px;
   text-transform:uppercase;
   margin-top:5px;
@@ -688,7 +733,7 @@
 }
 .site-footer a
 {
-  color:var(--footer-a);
+  color:#737373;
 }
 .footer-links
 {
@@ -702,10 +747,10 @@
 }
 .footer-links a
 {
-  color:var(--footer-a-link);
+  color:#363636;
 }
 .footer-links a:hover{
-  color:var(--footer-ahover-link);
+  color:rgba(36, 124, 184, 0.979);
 }
 
 .site-footer .social-icons a
@@ -717,7 +762,7 @@
   margin-left:6px;
   margin-right:0;
   border-radius:100%;
-  background-color:var(--footer-bg-icon);
+  background-color:#e0e0e0;
 }
 .copyright-text
 {
@@ -736,8 +781,8 @@
   margin-bottom:4px
 }
 .social-icons a{
-  background-color: var(--icon-a-bg-color);
-  color:var(--icon-a-color);
+  background-color: #e0e0e0;
+  color: #535353;
   font-size:16px;
   display:inline-block;
   line-height:44px;
@@ -752,17 +797,17 @@
 }
 .social-icons a.facebook:hover
 {
-  background-color: var(--facebook-bg)
+  background-color: rgba(49, 138, 197, 0.979);
 }
 .social-icons a.twitter:hover
 {
-  background-color: var(--twitter-bg)
+  background-color: rgba(49, 138, 197, 0.979);
 }
 .social-icons a.instagram:hover
 {
-  background-color: var(--instagram-bg)
+  background-color: rgba(49, 138, 197, 0.979);
 }
 .social-icons a.linkedin:hover
 {
-  background-color: var(--linkedin-bg)
+  background-color: rgba(49, 138, 197, 0.979);
 }
