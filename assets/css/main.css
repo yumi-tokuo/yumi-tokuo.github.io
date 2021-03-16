@@ -320,7 +320,8 @@
 		width: 60px;
 		height: 34px;
 		cursor: default;
-		left: 0;
+		left: 10px;
+		margin-top: 10px;
 		line-height: 5em;
 		text-align: right;
 		top: 0;
