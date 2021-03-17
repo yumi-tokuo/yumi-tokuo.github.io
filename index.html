@@ -71,7 +71,7 @@
 				<p>Atualmente, sou aluna do 3° ano do Ensino Médio integrado ao curso técnico em Informática no Instituto Federal de São Paulo (IFSP).</br>
 				Apaixonada por Design e áreas relacionadas a criatividade e desenvolvimento web. Estou sempre em busca de enriquecer minha experiência tanto profissionalmente como pessoalmente, pois procuro sempre evoluir sem mudar a minha essência e raízes. </p>
 				<ul class="actions">
-					<li><a href="assets/CV_Yumi _Tokuo.pdf" download="CV_Yumi_Tokuo.pdf" class="button icon fa-download" target="_blank">currículo</a></li>
+					<li><a href="assets/CV_Yumi _Tokuo.pdf" download="CV_Yumi_Tokuo.pdf" id="foto" class="button icon fa-download" target="_blank">currículo</a></li>
 				</ul>
 				<img src="images/yumissart.png" alt="" />
 				<p>projeto pessoal - @yumiss.art</p>
@@ -93,7 +93,7 @@
 						<h6>contato</h6>
 						<ul class="footer-links">
 							<li><a href="mailto:yumitokuo@gmail.com">yumitokuo@gmail.com</a></li>
-							<li><p href="tel:+55-11-96459-3109" class="phone">+55 (11) 96459-3109</p></li>
+							<li><p href="tel:+55-11-96459-3109" class="phone">11 96459-3109</p></li>
 						</ul>
 					</nav>
 					<nav class="col-md-4 col-sm-6 col-xs-12">
@@ -111,5 +111,20 @@
 			</footer>
 			<script src="assets/js/main.js"></script>
 			<script src="assets/js/checkbox.js"></script>
+			<script type="text/javascript">
+
+			var ft = document.getElementById("foto");
+
+			ft.onmouseover = function(){
+				ft.classList.remove("foto_sem_mouse");
+				ft.classList.add("foto_com_mouse");
+			}
+
+			ft.onmouseout = function(){
+				ft.classList.remove("foto_com_mouse");
+				ft.classList.add("foto_sem_mouse");
+			}
+
+			</script>
     </body>
 </html>

@@ -768,3 +768,13 @@
 {
   background-color: rgba(48, 103, 139, 0.979)!important;
 }
+.foto_sem_mouse{
+	width: 787px;
+	height: 274px;
+	transition: 0.3s;
+}
+.foto_com_mouse{
+	width: 820px;
+	height: 310px;
+	transition: 0.3s;
+}
