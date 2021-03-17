@@ -613,7 +613,8 @@
 					#yumiss{
 						background-image: url("../../images/yumissart.png");
 						background-color: #0c0c0c;
-						background-size: cover;
+						width: 1355px;
+					    height: 480px;
 					}
 
 					#sobremim p{
