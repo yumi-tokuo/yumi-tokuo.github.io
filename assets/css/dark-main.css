@@ -342,7 +342,7 @@
 	input[type="button"],
 	button,
 	.button {
-		background-color: rgb(14, 14, 36) !important;
+		background-color: rgb(9, 9, 29) !important;
 		color: #ffffff !important;
 	}
 
@@ -702,6 +702,13 @@
 .footer-links a:hover{
   color:rgba(36, 124, 184, 0.979)!important;
 }
+.footer-links p
+{
+  color:#f0f0f0!important;
+}
+.footer-links a:hover{
+	color:rgba(36, 124, 184, 0.979)!important;
+  }
 
 .site-footer .social-icons a
 {
