@@ -34,6 +34,19 @@
 		</article>
 	</section> <br> <br> <br>
 
+	<script>
+		jQuery(document).ready(function($){
+    $('#minhafoto').mouseenter(function(){
+    $(this).addClass('foto_com_mouse');
+    $(this).removeClass('foto_sem_mouse');
+    });
+    $('#minhafoto').mouseleave(function(){
+    $(this).removeClass('foto_com_mouse');
+    $(this).addClass('foto_sem_mouse');
+    });
+    })
+	</script>
+	
 	<footer class="site-footer">
 		<nav class="container">
 			<div class="row">	  
@@ -68,17 +81,5 @@
 	</footer>
 	<script src="assets/js/main.js"></script>
 	<script src="assets/js/checkbox.js"></script>
-	<script>
-		jQuery(document).ready(function($){
-    $('#minhafoto').mouseenter(function(){
-    $(this).addClass('foto_com_mouse');
-    $(this).removeClass('foto_sem_mouse');
-    });
-    $('#minhafoto').mouseleave(function(){
-    $(this).removeClass('foto_com_mouse');
-    $(this).addClass('foto_sem_mouse');
-    });
-    })
-	</script>
 	</body>
 </html>

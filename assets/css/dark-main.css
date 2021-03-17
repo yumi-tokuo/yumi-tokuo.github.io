@@ -610,6 +610,11 @@
 						width: 100%;
 					}
 
+					#yumiss{
+						background-image: url("../../images/yumissart-dark.png");
+						background-color: #0c0c0c;
+					}
+
 					#sobremim p{
 						margin-left: 60px;
 						color: #f0f0f0!important;
