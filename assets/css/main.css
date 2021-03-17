@@ -769,13 +769,13 @@
   background-color: rgba(49, 138, 197, 0.979);
 }
 .foto_sem_mouse{
-	width: 523px;
-	height: 294px;
+	width: 523;
+	height: 294;
 	transition: 0.3s;
 }
 .foto_com_mouse{
-	width: 700px;
-	height: 450px;
+	width: 700;
+	height: 450;
 	transition: 0.3s;
 }
 
