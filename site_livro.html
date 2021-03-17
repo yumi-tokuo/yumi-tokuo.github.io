@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 	</head>
-	<body>
+	<body id="site">
 
 	<header id="header">
 		<div class="inner" >
@@ -15,6 +15,10 @@
 				<a href="index.html/#sobremim">Sobre</a>
 				<a href="index.html/#projetos">Projetos</a>
 				<a class="page-scroll" href="#site-footer">Contato</a>
+				<label class="switch">
+					<input type="checkbox" onclick="toggleTheme()">
+					<span class="slider round"></span>
+				</label>
 			</nav>
 		</div>
 	</header>
@@ -46,8 +50,7 @@
 				  <h6>contato</h6>
 				  <ul class="footer-links">
 					<li><a href="mailto:yumitokuo@gmail.com">yumitokuo@gmail.com</a></li>
-					<li><p class="phone">+55 (11) 96459-3109</p></li>
-
+					<li><p href="tel:+55-11-96459-3109" class="phone">11 96459-3109</p></li>
 				  </ul>
 			</nav>
 			<nav class="col-md-4 col-sm-6 col-xs-12">
@@ -63,6 +66,7 @@
 			<p class="copyright-text">Copyright &copy; 2020 YUMI</p>
 		</nav>
 	</footer>
-	
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/checkbox.js"></script>
 	</body>
 </html>
