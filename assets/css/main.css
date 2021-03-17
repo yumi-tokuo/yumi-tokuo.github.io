@@ -777,14 +777,14 @@
 }
 .foto_sem_mouse{
 	position: center;
-	width: 1100px;
-	height: 650px;
+	width: 1250px;
+	height: 800px;
 	transition: 0.3s;
 }
 .foto_com_mouse{
 	position: center;
-	width: 1250px;
-	height: 800px;
+	width: 1100px;
+	height: 650px;
 	transition: 0.3s;
 }
 
