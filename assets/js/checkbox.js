@@ -1,12 +1,9 @@
-const toggleSwitch = document.querySelector('.theme-switch input[type="checkbox"]');
+function toggleTheme() { 
+    var theme = document.getElementsByTagName('link')[0]; 
 
-function switchTheme(e) {
-    if (e.target.checked) {
-        document.documentElement.setAttribute('data-theme', 'dark');
-    }
-    else {
-        document.documentElement.setAttribute('data-theme', 'light');
-    }    
+    if (theme.getAttribute('href') == 'assets/css/main.css') { 
+      theme.setAttribute('href', 'assets/css/dark-main.css'); 
+    } else { 
+      theme.setAttribute('href', 'assets/css/main.css'); 
+    } 
 }
-
-toggleSwitch.addEventListener('change', switchTheme, false);
