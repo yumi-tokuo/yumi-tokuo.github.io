@@ -73,7 +73,7 @@
 				<ul class="actions">
 					<li><a href="assets/CV_Yumi _Tokuo.pdf" download="CV_Yumi_Tokuo.pdf" class="button icon fa-download" target="_blank">currículo</a></li>
 				</ul>
-				<img id="minhafoto" src="images/yumissart.png" alt="" />
+				<img id="minhafoto" src="images/yumissart.png" classe="yumiss" alt="" />
 				<p>projeto pessoal - @yumiss.art</p>
 			</article>
 		</section>
@@ -113,10 +113,12 @@
 			<script src="assets/js/checkbox.js"></script>
 			<script>
 			jQuery(document).ready(function($){
+				
 				$('#minhafoto').mouseenter(function(){
 				$(this).addClass('foto_com_mouse');
 				$(this).removeClass('foto_sem_mouse');
 				});
+
 				$('#minhafoto').mouseleave(function(){
 				$(this).removeClass('foto_com_mouse');
 				$(this).addClass('foto_sem_mouse');
