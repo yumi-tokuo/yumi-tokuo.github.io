@@ -778,3 +778,7 @@
 	height: 310px;
 	transition: 0.3s;
 }
+
+#jogo p{
+	color:#111111;
+}
