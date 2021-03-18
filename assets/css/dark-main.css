@@ -776,16 +776,16 @@
   background-color: rgba(48, 103, 139, 0.979)!important;
 }
 .foto_sem_mouse{
-	width: 650px;
+	position: center;
+	width: 600px;
 	height: 450px;
 	transition: 0.3s;
-	position: center;
 }
 .foto_com_mouse{
+	position: center;
 	width: 1000px;
 	height: 750px;
 	transition: 0.3s;
-	position: center;
 }
 
 #jogo p{
