@@ -386,6 +386,8 @@
 		.image img {
 			border-radius: 0;
 			display:flex;
+			position: inherit;
+			margin-left: 400px;
 		}
 
 		.image.fit {
