@@ -387,7 +387,7 @@
 			border-radius: 0;
 			display:flex;
 			position: inherit;
-			margin-left: 300px;
+			margin-left: 200px;
 		}
 
 		.image.fit {
@@ -775,14 +775,14 @@
 }
 .foto_sem_mouse{
 	align-items: center;
-	width: 400px;
-	height: 300px;
+	width: 800px;
+	height: 500px;
 	transition: 0.3s;
 }
 .foto_com_mouse{
 	align-items: center;
-	width: 480px;
-	height: 380px;
+	width: 900px;
+	height: 6000px;
 	transition: 0.3s;
 }
 
