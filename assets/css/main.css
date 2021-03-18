@@ -390,6 +390,7 @@
 
 		.image.fit {
 			display: flex;
+			position: center;
 			margin: 0 0 2em 0;
 			width: 100%;
 		}
