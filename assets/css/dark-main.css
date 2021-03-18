@@ -387,7 +387,7 @@
 			border-radius: 0;
 			display:flex;
 			position: inherit;
-			margin-left: 300px;
+			margin-left: 400px;
 		}
 
 		.image.fit {
@@ -774,15 +774,15 @@
   background-color: rgba(48, 103, 139, 0.979)!important;
 }
 .foto_sem_mouse{
-	position: center;
-	width: 700px;
-	height: 400px;
+	align-items: center;
+	width: 400px;
+	height: 300px;
 	transition: 0.3s;
 }
 .foto_com_mouse{
-	position: center;
-	width: 1000px;
-	height: 750px;
+	align-items: center;
+	width: 480px;
+	height: 380px;
 	transition: 0.3s;
 }
 
